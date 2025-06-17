@@ -1,0 +1,48 @@
+First Time Setup
+==================
+
+Right-Click on SpaceEngine in Steam and go to Manage > Browse Local Files
+
+Open the addons folder and create a new folder inside called "catalogs" (EVERYTHING IS CASE SENSITIVE)
+
+Now open the catalogs folder and create a folder inside called "planets"
+
+Open SEReplacer.exe and set the output folder to the planets folder you just created.
+
+
+
+How To Use
+==================
+
+Make sure you don't move the .exe out of the folder and do not delete the objects folder.
+
+The "Target" is the object you're replacing. The "Replacer" is what you're replacing that object with.
+
+After selecting what you'd like click "Generate Script"
+
+Start or restart SpaceEngine.
+
+You will have replaced the object of your choice.
+
+To return the game back to normal simply click "Return game to default"
+
+
+
+Important Info
+==================
+
+You can't replace multiple objects at a time. If you try to replace another object the program returns the game to default first.
+
+You can add your own objects to be targets or replacers by finding an object in SpaceEngine and clicking shift+f2, then click export, then put the exported file (located at Steam\steamapps\common\SpaceEngine\export) into the objects folder.
+
+There seems to be some bugs when trying to replace the Sun. It likes to delete the whole solar system. A way to get around this is to edit MySystem.sc (located in Steam\steamapps\common\SpaceEngine\addons\catalogs\planets) and delete the line that says "Remove "Sun" { ParentBody "Solar System" }" but this means the sun will still be there so the object you're replacing it with has to be bigger than the sun to be visible.
+
+
+Feel free to change or distribute this program.
+
+
+
+SE Replacer
+Created by @SpaceChip on Discord
+
+https://www.youtube.com/@space_chip
