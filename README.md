@@ -1,3 +1,15 @@
+This is a simple python script that will read exported object files in SpaceEngine and let you replace any object with another. You can add any object by exporting the object file in SE and adding it to the "objects" folder.
+
+
+
+
+
+
+
+
+
+
+
 First Time Setup
 ==================
 
